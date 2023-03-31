@@ -296,30 +296,31 @@
           <form action="">
             <div class="mb-3">
               <label for="first-name" class="col-form-label">First Name:</label>
-              <input type="text" class="form-control" id="first_name" name="">
+              <input type="text" class="form-control" id="first_name" name="" required>
             </div>
             <div class="mb-3">
               <label for="last-name" class="col-form-label">Last Name:</label>
-              <input type="text" class="form-control" id="last_name" name="">
+              <input type="text" class="form-control" id="last_name" name="" required>
             </div>
             <div class="mb-3">
               <label for="email" class="col-form-label">Email:</label>
-              <input type="email" class="form-control" id="email" name="">
+              <input type="email" class="form-control" id="email" name="" required>
             </div>
             <div class="mb-3">
               <label for="tel" class="col-form-label">No Tel:</label>
-              <input type="tel" class="form-control" id="tel" name="">
+              <input type="tel" class="form-control" id="tel" name="" required>
             </div>
             <div class="mb-3">
               <label for="mensaje" class="form-label">Mensaje</label>
-              <textarea class="form-control" id="mensaje" rows="3" name=""></textarea>
+              <textarea class="form-control" id="mensaje" rows="3" name="" required></textarea>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-primary" data-bs-toggle="modal">Close</button>
+              <button type="submit" class="btn btn-primary" >Submit</button>
             </div>
           </form>
         </div>
-        <div class="modal-footer">
-          <button class="btn btn-primary" data-bs-toggle="modal">Close</button>
-          <button type="submit" class="btn btn-primary" >Submit</button>
-        </div>
+        
       </div>
     </div>
   </div>
